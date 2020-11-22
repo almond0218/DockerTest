@@ -11,3 +11,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 RUN ./manage.py collectstatic --no-input
+EXPOSE 8000
