@@ -12,5 +12,5 @@ COPY . .
 
 RUN ./manage.py collectstatic --no-input
 
-ENTRYPOINT ./manage.py runserver 0.0.0.0:8000
+ENTRYPOINT ./manage.py runserver 0:8000
 EXPOSE 8000
